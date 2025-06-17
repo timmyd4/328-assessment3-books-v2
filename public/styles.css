@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #40c4ff;
+}
+
+#reviews {
+    max-width: 900px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#reviews th,
+#reviews td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#reviews th {
+    background-color: #1e1e1e;
+    color: #40c4ff;
+}
+
+#reviews img {
+    height: 80px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.stars {
+    color: gold;
+    font-weight: bold;
+}
